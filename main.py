@@ -16,5 +16,6 @@ os.system("start https://www.youtube.com/watch?v=xvFZjo5PgG0")
 ## added sleep because the msg.vbs launched before the rickroll loaded
 ## change number to how many seconds delay between load rickroll and vbs opens
 ## uncomment to enable
+for i in range(5):
 os.system("start msg.vbs")
 time.sleep(10)
